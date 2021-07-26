@@ -8,7 +8,6 @@ mem = urllib.request.urlopen(url).read()
 with open (savename, mode='wb') as f:
     f.write(mem)
     print('저장되었습니다')
-
     
 # 도커에서, ls -l명령어를 통해 파이썬 파일이 있는 것을 확인하고
 # 도커 내에서 파이썬 명령어를 통해서 코드를 실행시키면
