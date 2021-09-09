@@ -41,3 +41,27 @@
 4. `apt-get install -y fonts-nanum*` [나눔 한국어 폰트 다운로드]
 5. `docker ps -a` [록을 확인해서 방금 들어온 도커의 컨테이너 id[48715bb423ab]를 확인]
 6. `docker commit 48715bb423ab ubuntu-phantomjs` [당 컨테이너 아이디를 ubuntu-phantomjs 라는 아이디로 변경 후 저장(보기 쉽게)]
+
+<br/>
+
+---
+
+<br/>
+
+
+위의 절차를 따라 컨테이너를 만든 후 아래와 같이 **UTF-8** 설정들을 해줍니다.
+
+이 설정이 없으면 이후에 한글이 제대로 출력이 되지 않기 때문에 꼭 해주어야 합니다.
+
+`docker run -i -t -v /c/Users/Vector/sample:/sample -e ko_KR.UTF-8 -e PYTHONENCODING=utf_8 ubuntu-phantomjs /bin/bash`
+
+<br/>
+
+
+기존에 cmd창에서 파이썬 파일을 실행을 할 때 'python test.py' 란 명령어로 파일을 실행하였습니다.
+
+하지만 이 컨테이너에선 기존에 사용하던 켄테이너와 달리 **python3** 버전을 사용했기 때문에 'python3 test.py' 으로 입력해야 됩니다.
+
+![image](https://user-images.githubusercontent.com/57824945/132694982-4dbebfd9-dbea-4364-8a73-22cfbf58f00f.png)
+
+
