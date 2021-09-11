@@ -65,3 +65,4 @@
 ![image](https://user-images.githubusercontent.com/57824945/132694982-4dbebfd9-dbea-4364-8a73-22cfbf58f00f.png)
 
 
+도커 접속 코드 : docker run -i -t -v /c/Users/Vector/sample:/sample ubuntu-phantomjs /bin/bash
