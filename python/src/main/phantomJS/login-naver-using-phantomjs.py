@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-
 url = "https://nid.naver.com/nidlogin.login"
 
 # PhantomJS 드라이버 추출하기 --- (*1)
