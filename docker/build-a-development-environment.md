@@ -33,6 +33,7 @@ cmd창에 `docker pull continuumio/miniconda3`  입력
 
 ![image](https://user-images.githubusercontent.com/57824945/118384973-bd4ef880-b645-11eb-990f-572ce45f5bd2.png)
 
+<br/>
 
 #### 이미지 실행
 
