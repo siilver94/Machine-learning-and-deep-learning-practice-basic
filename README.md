@@ -21,7 +21,7 @@
 
 ### 예
 
-**방식** : GET, POST, PUT, DELETE
+**방식** : `GET`, `POST`, `PUT`, `DELETE`
 
 **대상** : [https://search.naver.com/](https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%EC%B4%88%EC%BD%9C%EB%A6%BF) ⇒ 호스트 이름
 
